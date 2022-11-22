@@ -107,12 +107,6 @@
   right: 5px;
 }
 
-@media (max-width: 600px) {
-  .video-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 750px) {
   .video-grid {
     grid-template-columns: 1fr 1fr;
@@ -142,5 +136,11 @@
   .video-author,
   .video-stats {
     font-size: 14px;
+  }
+}
+  
+  @media (max-width: 600px) {
+  .video-grid {
+    grid-template-columns: 1fr;
   }
 }
