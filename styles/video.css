@@ -140,9 +140,3 @@
     font-size: 14px;
   }
 }
-
-@media (max-width:600px){
-  .video-grid {
-    grid-template-columns: 1fr;
-  }
-}
